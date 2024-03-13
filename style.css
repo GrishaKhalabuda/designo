@@ -283,3 +283,67 @@ div.product__content-item article.product:nth-child(2) {
 .info_item.social > a:nth-child(5) {
   background-image: url(../images/instagram.svg);
 }
+.webdesign div.product__content-item {
+  flex-direction: row;
+}
+.webdesign main .touch {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: static;
+}
+.webdesign main .touch h2 {
+  font-size: 48px;
+  line-height: 48px;
+}
+.webdesign .works__item {
+  width: 350px;
+  height: 478px;
+  border-radius: 15px;
+  background: #fdf3f0;
+}
+.webdesign .works {
+  padding-top: 160px;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 32px;
+}
+.works__item.flex {
+  flex-direction: column;
+  justify-content: center;
+}
+.works__item div {
+  flex-direction: column;
+  justify-content: center;
+  height: 158px;
+  width: 100%;
+  gap: 16px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: background 0.5s ease-in-out;
+}
+.works__item div:hover {
+  background: #e7816b;
+}
+.works__item div:hover h3 {
+  color: #fff;
+}
+.works__item div:hover p {
+  color: #fff;
+}
+.works__item h3 {
+  color: #e7816b;
+  font-style: 20px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 5px;
+  line-height: 26px;
+}
+.works__item p {
+  color: #333136;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  width: 286px;
+}
