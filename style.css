@@ -16,13 +16,11 @@ a {
   text-decoration: none;
   color: #333136;
 }
-.header {
-}
+
 .header .container {
   height: 155px;
 }
-.logo {
-}
+
 .container {
   max-width: 1130px;
   padding-left: 10px;
@@ -60,8 +58,7 @@ a {
   background-repeat: no-repeat;
   background-position: left top 320px;
 }
-.container-bg {
-}
+
 .hero {
   border-radius: 15px;
   min-height: 640px;
@@ -118,8 +115,7 @@ a {
   display: flex;
   gap: 30px;
 }
-.product__content-item {
-}
+
 .product {
   min-width: 540px;
   width: 100%;
@@ -346,4 +342,20 @@ div.product__content-item article.product:nth-child(2) {
   font-size: 16px;
   line-height: 26px;
   width: 286px;
+}
+.about {
+  border-radius: 15px;
+  background: #e7816b;
+  height: 480px;
+  background-image: url(../images/about/about-oval.png),
+    url(../images/about/about.jpg);
+  background-repeat: no-repeat;
+  background-position: left center, right;
+}
+.about__info.flex {
+  gap: 32px;
+}
+.about__info {
+  max-width: 450px;
+  margin-left: 95px;
 }
